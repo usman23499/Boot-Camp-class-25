@@ -3,6 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// call the server we can also call on app.js
+
+import { makeServer } from "./server";
+
+
+makeServer();//call server
+
 
 ReactDOM.render(
   <React.StrictMode>
